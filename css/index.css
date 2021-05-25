@@ -1,0 +1,544 @@
+﻿/*************************
+*******Typography******
+**************************/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Cambria);
+
+/*************************
+******* Home ******
+**************************/
+
+.item {
+    padding-left: 100px;
+}
+
+.pricing {
+    position: absolute;
+    right: 40%;
+    top: 52%;
+}
+
+.girl {
+    margin-left: 0;
+}
+
+.item h1 {
+    color: #B4B1AB;
+    font-family: Cambria;
+    font-size: 48px;
+    margin-top: 115px;
+}
+
+.item h1 span {
+    color: #158C82;
+}
+
+.item p {
+    color: #363432;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Cambria;
+}
+
+.get {
+    background: #158C82;
+    border: 0 none;
+    border-radius: 0;
+    color: #FFFFFF;
+    font-family: Cambria;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 23px;
+}
+
+.item button:hover {
+    background: #158C82;
+}
+
+.right {
+    right: 0;
+}
+
+.category-products {
+    border: 1px solid #F7F7F0;
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.category-products .panel {
+    background-color: #FFFFFF;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    margin-bottom: 0px;
+}
+
+.category-products .panel-default .panel-heading {
+    background-color: #FFFFFF;
+    border: 0 none;
+    color: #FFFFFF;
+    padding: 5px 20px;
+}
+
+.panel-group .panel-heading+.panel-collapse .panel-body {
+    border-top: 0 none;
+}
+
+.category-products .badge {
+    background: none;
+    border-radius: 10px;
+    color: #696763;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    min-width: 10px;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.panel-body ul {
+    padding-left: 20px;
+}
+
+.panel-body ul li a {
+    color: #696763;
+    font-family: Cambria;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.brands-name {
+    border: 1px solid #F7F7F0;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.shipping {
+    background-color: #F2F2F2;
+    margin-top: 40px;
+    overflow: hidden;
+    padding-top: 20px;
+    position: relative;
+}
+
+.price-range {
+    margin-top: 30px;
+}
+
+.well {
+    background-color: #FFFFFF;
+    border: 1px solid #F7F7F0;
+    border-radius: 4px;
+    box-shadow: none;
+    margin-bottom: 20px;
+    min-height: 20px;
+    padding: 35px;
+}
+
+.tooltip-inner {
+    background-color: #158C82;
+    border-radius: 4px;
+    color: #FFFFFF;
+    max-width: 200px;
+    padding: 3px 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: #158C82;
+    border-width: 5px 5px 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+}
+
+.padding-right {
+    padding-right: 0;
+}
+
+.features_items {
+    overflow: hidden;
+}
+
+.product-image-wrapper {
+    border: 1px solid #F7F7F5;
+    overflow: hidden;
+    margin-bottom: 30px;
+    height: 440px;
+}
+
+.single-products {
+    position: relative;
+}
+
+.new,
+.sale {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.productinfo h2 {
+    color: #158C82;
+    font-family: Cambria;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.product-overlay h2 {
+    color: #fff;
+    font-family: Cambria;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.productinfo p {
+    font-family: Cambria;
+    font-size: 14px;
+    font-weight: 400;
+    color: #696763;
+}
+
+.productinfo img {
+    width: 100%;
+}
+
+.productinfo {
+    position: relative;
+}
+
+.product-overlay {
+    background: #158C82;
+    top: 0;
+    display: none;
+    height: 0;
+    position: absolute;
+    transition: height 500ms ease 0s;
+    width: 100%;
+    display: block;
+}
+
+.single-products:hover .product-overlay {
+    display: block;
+    height: 100%;
+}
+
+.product-overlay .overlay-content {
+    bottom: 0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.product-overlay .add-to-cart {
+    background: #fff;
+    border: 0 none;
+    border-radius: 0;
+    color: #158C82;
+    font-family: Cambria;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.product-overlay .add-to-cart:hover {
+    background: #fff;
+    color: #158C82;
+}
+
+.product-overlay p {
+    font-family: Cambria;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.add-to-cart {
+    background: #F5F5ED;
+    border: 0 none;
+    border-radius: 0;
+    color: #696763;
+    font-family: Cambria;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.add-to-cart:hover {
+    background: #158C82;
+    border: 0 none;
+    border-radius: 0;
+    color: #FFFFFF;
+}
+
+.add-to {
+    margin-bottom: 10px;
+}
+
+.add-to-cart i {
+    margin-right: 5px;
+}
+
+.add-to-cart:hover {
+    background: #158C82;
+    color: #FFFFFF;
+}
+
+.view1 {
+    background: #F5F5ED;
+    border: 0 none;
+    border-radius: 0;
+    color: #696763;
+    font-family: Cambria;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.view1:hover {
+    background: #158C82;
+    border: 0 none;
+    border-radius: 0;
+    color: #FFFFFF;
+}
+
+.view1 {
+    margin-bottom: 10px;
+}
+
+.view1 i {
+    margin-right: 5px;
+}
+
+.view1:hover {
+    background: #158C82;
+    color: #FFFFFF;
+}
+
+.choose {
+    border-top: 1px solid #F7F7F0;
+}
+
+.choose ul li a {
+    color: #B3AFA8;
+    font-family: Cambria;
+    font-size: 13px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.choose ul li a i {
+    margin-right: 5px;
+}
+
+.choose ul li a:hover {
+    background: none;
+    color: #158C82;
+}
+
+.category-tab {
+    overflow: hidden;
+}
+
+.category-tab ul {
+    background: #40403E;
+    border-bottom: 1px solid #158C82;
+    list-style: none outside none;
+    margin: 0 0 30px;
+    padding: 0;
+    width: 100%;
+}
+
+.category-tab ul li a {
+    border: 0 none;
+    border-radius: 0;
+    color: #B3AFA8;
+    display: block;
+    font-family: Cambria;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.category-tab ul li a:hover {
+    background: #158C82;
+    color: #fff;
+}
+
+.recommended_items {
+    overflow: hidden;
+}
+
+.recommended-item-control {
+    position: absolute;
+    top: 41%;
+}
+
+.recommended-item-control i {
+    background: none repeat scroll 0 0 #158C82;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 4px 10px;
+}
+
+.recommended-item-control i:hover {
+    background: #ccccc6;
+}
+
+.our_partners {
+    overflow: hidden;
+}
+
+.our_partners ul {
+    background: #F7F7F0;
+    margin-bottom: 50px;
+}
+
+.our_partners ul li a:hover {
+    background: none;
+}
+
+
+/*************************
+*******404 CSS******
+**************************/
+
+.logo-404 {
+    margin-top: 60px;
+}
+
+.content-404 h1 {
+    color: #363432;
+    font-family: Cambria;
+    font-size: 41px;
+    font-weight: 300;
+}
+
+.content-404 img {
+    margin: 0 auto;
+}
+
+.content-404 p {
+    color: #363432;
+    font-family: Cambria;
+    font-size: 18px;
+}
+
+.content-404 h2 {
+    margin-top: 50px;
+}
+
+.content-404 h2 a {
+    background: #158C82;
+    color: #FFFFFF;
+    font-family: Cambria;
+    font-size: 44px;
+    font-weight: 300;
+    padding: 8px 40px;
+}
+
+.productinfo .home_img {
+    width: 150px !important;
+}
+
+.home_feature .product-image-wrapper {
+    position: relative;
+}
+
+.home_feature .single-products,
+.home_feature .productinfo {
+    position: unset;
+}
+
+.home_feature .add-to-cart {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    margin-right: 55px;
+}
+
+.view1 {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    margin-right: -48px;
+    margin-bottom: 25px;
+}
+
+.home_feature .price {
+    bottom: 100px;
+    position: absolute;
+    width: 100%;
+}
+
+.home_feature .pro_name {
+    bottom: 50px;
+    position: absolute;
+    width: 100%;
+}
+
+
+/* product-information */
+
+.product-information h2 {
+    color: #363432;
+    font-family: Cambria;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.product-information p {
+    color: #696763;
+    font-family: Cambria;
+    margin-bottom: 5px;
+}
+
+.product-information span {
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-top: 18px;
+}
+
+.product-information span span {
+    color: #158C82;
+    float: left;
+    font-family: Cambria;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+.product-information span input {
+    border: 1px solid #DEDEDC;
+    color: #696763;
+    font-family: Cambria;
+    font-size: 20px;
+    font-weight: 700;
+    height: 33px;
+    outline: medium none;
+    text-align: center;
+    width: 50px;
+}
+
+.product-information span lCambria {
+    color: #696763;
+    font-family: Cambria;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.buy1 {
+    background: #158C82;
+    border: 0 none;
+    border-radius: 0;
+    color: #FFFFFF;
+    font-family: Cambria;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
